@@ -249,7 +249,7 @@ article p {
     <div class="side-by-side">
       <div class="column">
         <div class="tier-header">
-            <h2 tabindex="0">In the news</h2> <!-- added tabindex to the heading so it can be focused by keyboard -->
+            <h2>In the news</h2> 
         </div>
         <article>
           <h3 class="headline">Bee wonders if maybe everyone else is a drone and he's the only one who has it "figured out."</h3>
@@ -273,7 +273,7 @@ article p {
     </div>
     <div class="three-col">
       <div class="tier-header">
-        <h2 tabindex="0">Recommended</h2> <!-- added tabindex to the heading so it can be focused by keyboard -->
+        <h2>Recommended</h2>
       </div>
       <div class="columns">
         <article>
@@ -305,7 +305,7 @@ article p {
           <!-- Added aria-label for better screen reader experience  -->
           <input type="text" aria-label="Email">
           <!-- Ensure button is focusable -->
-          <button type="button" onfocus="getFocus()" tabindex="0">Sign up</button>
+          <button type="button" onclick="getFocus()" tabindex="0">Sign up</button> <!--changed the function onfocus to onclick so that it opens the link when it is clicked -->
         </div>
   </footer>
  
